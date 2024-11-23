@@ -1,0 +1,53 @@
+
+.list{
+    margin-left: 202px !important;
+    display: flex ;
+    gap: 42px;
+}
+.list .item{
+    font-weight: 400!important;
+    font-size: 16px !important;
+    color: #1A1A1A !important;
+}
+.list .item.active{
+    color: #405189 !important;
+    font-weight: 500 !important;
+}
+#collapsible-nav-dropdown{
+    min-height: 42px;
+    min-width: 140px;
+    border-radius: 24px;
+    border: 1px solid #EFF0F6;
+    padding: 16px 9px;
+    display: flex !important;
+    justify-content: center !important;
+    gap:28px !important;
+    align-items: center !important;
+    color: #170F49;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.login{
+    min-width: 90px;
+    min-height: 53px;
+    border-radius: 8px;
+    padding: 16px 24px;
+    background-color: transparent !important;
+    border: none !important;
+    color: #1A1A1A !important;
+    
+}
+
+.signup{
+   background-color :#405189 !important;
+   border: none !important;
+   min-height: 53px;
+   min-width: 131px;
+   border-radius: 8px;
+   padding: 16px 24px;
+   color:#fff;
+   font-size: 14px;
+   font-weight: 500;
+}
+
