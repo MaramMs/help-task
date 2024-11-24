@@ -1,8 +1,6 @@
-
 .list{
-    margin-left: 202px !important;
     display: flex ;
-    gap: 42px;
+    gap: 10px;
 }
 .list .item{
     font-weight: 400!important;
@@ -51,3 +49,16 @@
    font-weight: 500;
 }
 
+
+@media (min-width: 768px) { /* Equivalent to md */
+    .nav-right{
+align-items: center;
+    }
+    .nav-right div{
+    gap: 10px;
+    }
+    .list{
+        gap: 42px;
+        margin-left: 202px !important;
+    }
+  }

@@ -15,13 +15,13 @@ function NavbarCustom() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto list">
+          <Nav className="list">
             <Nav.Link href="#features" className='item active'>Help Center</Nav.Link>
             <Nav.Link href="#pricing" className='item'>Pricing</Nav.Link>
             <Nav.Link href="#pricing" className='item'>video guides</Nav.Link>
           
           </Nav>
-          <Nav className='flex items-center gap-[24px]'>
+          <Nav className='nav-right flex gap-[24px]'>
         
          <NavDropdown
       title={
@@ -57,7 +57,7 @@ function NavbarCustom() {
         </div>
       </NavDropdown.Item>
     </NavDropdown>
-        <div className='flex gap-[10px]'>
+        <div className='flex gap-[10px] mr-0  '>
         <Button className='login'>
             Log In
             </Button>
