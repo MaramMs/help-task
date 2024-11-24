@@ -1,0 +1,82 @@
+.mainTitle{
+    color: #1A1A1A;
+    font-weight: 500;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Inter';
+}
+/* search */
+.search input{
+    border-radius: 25px;
+    border: 1px solid rgba(78, 84, 113, 0.2);
+    height: 40px;
+    padding: 8px 24px;
+}
+.search input[placeholder]{
+   color: #4E5471 !important;
+   font-size: 16px;
+   font-weight: 400;
+   font-family: 'Poppins', sans-serif;
+}
+.custom-icon {
+    border-radius: 25px;
+
+    background: transparent;
+    border: 1px solid rgba(78, 84, 113, 0.2);
+    color: #4a4a4a; 
+    font-size: 1.2rem; 
+    cursor: pointer;
+    margin-right: 0.5rem; 
+  }
+/* card image */
+.card{
+    box-shadow: 8px 8px 32px 0px #0D1D3D29;
+    border-radius: 16px;
+    margin-bottom: 18px;
+}
+.img-card{
+border-top-left-radius: 14.52px;
+border-top-right-radius: 14.52px;
+}
+
+.service-title{
+    font-weight: 500;
+    font-size: 25px;
+    color:#1A1A1A;
+}
+
+.service-card{
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.service-card .card-header{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: none;
+}
+
+.service-card  .card-title{
+    margin-bottom: 0px !important;
+    color: #170F49 ;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+.service-card .card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 30.5px;
+}
+
+.service-card .card-body .service-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: c;
+color: #666666;
+font-weight: 600;
+font-size: 16px;
+}
