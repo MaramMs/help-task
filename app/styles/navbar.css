@@ -1,6 +1,7 @@
+
 .list{
     display: flex ;
-    gap: 10px;
+    gap: 8px;
 }
 .list .item{
     font-weight: 400!important;
@@ -50,7 +51,8 @@
 }
 
 
-@media (min-width: 768px) { /* Equivalent to md */
+
+@media (min-width: 768px) {
     .nav-right{
 align-items: center;
     }
@@ -60,5 +62,6 @@ align-items: center;
     .list{
         gap: 42px;
         margin-left: 202px !important;
+        margin-right: auto;
     }
   }

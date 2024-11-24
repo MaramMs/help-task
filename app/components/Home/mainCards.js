@@ -7,20 +7,18 @@ import MainCard from './mainCard';
 function MainCards() {
   return (
     <Container>
-    <Row>
-         <Col>
-         
-         <MainCard />
-         </Col>
-        <Col>
-        <MainCard />
+      <Row>
+        <Col xs={12} md={6} lg={4}>
+          <MainCard />
         </Col>
-        <Col>
-        
-        <MainCard />
+        <Col xs={12} md={6} lg={4}>
+          <MainCard />
         </Col>
-    </Row>
-  </Container>
+        <Col xs={12} md={6} lg={4}>
+          <MainCard />
+        </Col>
+      </Row>
+    </Container>
   )
 }
 
