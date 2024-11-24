@@ -57,9 +57,9 @@ background-color: #405189;
 
 
 
-@media (min-width: 768px) { /* Equivalent to md */
+@media (min-width: 768px){
     .footer-des {
       width: 43%;
     }
-    
+
   }
