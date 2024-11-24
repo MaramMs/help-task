@@ -1,7 +1,7 @@
-import MainCards from "./components/Home/mainCards";
-import Search from "./components/Home/search";
-import ServicesCards from "./components/Home/servicesCards";
-import "./styles/home.css";
+import MainCards from "../components/Home/mainCards";
+import Search from "../components/Home/search";
+import ServicesCards from "../components/Home/servicesCards";
+import "../styles/home.css";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center   mt-[40px]">
