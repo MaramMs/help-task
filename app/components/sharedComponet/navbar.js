@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../../styles/navbar.css'
 function NavbarCustom() {
   return (
-<Navbar collapseOnSelect expand="lg" className='py-[44px]'>
+<Navbar collapseOnSelect expand="lg"  className="py-[44px] fixed top-0 left-0 w-full bg-white  z-50">
       <Container>
         <Navbar.Brand href="/">
           <img src='/images/logo.png' />

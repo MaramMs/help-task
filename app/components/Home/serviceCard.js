@@ -7,7 +7,7 @@ import "../../styles/home.css";
 import Link from "next/link";
 
 function ServiceCard({ item }) {
-  console.log(item, "item");
+  // console.log(item, "item");
 
   return (
     <Card className="service-card">

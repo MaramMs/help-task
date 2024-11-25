@@ -7,7 +7,7 @@ export default function Search() {
     const handleSearch = (event) => {
         event.preventDefault();
         // Add your search logic here
-        console.log("Search triggered");
+        // console.log("Search triggered");
       };
   return (
     <Form className="d-flex justify-center mt-3 search" onSubmit={handleSearch}>
