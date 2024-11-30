@@ -4,8 +4,9 @@ import ServicesCards from "../components/Home/servicesCards";
 import "../styles/home.css";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center   mt-[40px]">
-      <div>
+    <section className="mt-[40px]">
+
+      <div className="flex flex-col justify-center items-center">
         <h1 className="mainTitle">We are happy to Help you</h1>
         <Search />
       </div>
@@ -19,6 +20,6 @@ export default function Home() {
         </h5>
         <ServicesCards />
       </div>
-    </main>
+    </section>
   );
 }
