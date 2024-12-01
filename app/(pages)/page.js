@@ -1,12 +1,12 @@
 import MainCards from "../components/Home/mainCards";
-import Search from "../components/Home/search";
 import ServicesCards from "../components/Home/servicesCards";
+import Search from "../components/sharedComponet/search";
 import "../styles/home.css";
 export default function Home() {
   return (
-    <section className="mt-[40px]">
+    <section>
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center gap-[34px]">
         <h1 className="mainTitle">We are happy to Help you</h1>
         <Search />
       </div>

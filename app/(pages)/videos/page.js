@@ -1,13 +1,12 @@
-import React from 'react'
-import '../../styles/home.css'
-import Search from '@/app/components/Home/search'
-import VideoCardList from '@/app/components/videos/videoCardList'
+import Search from '@/app/components/sharedComponet/search'
 import Categories from '@/app/components/videos/categories'
+import VideoCardList from '@/app/components/videos/videoCardList'
+import '../../styles/home.css'
 
 const Videos = () => {
   return (
-    <section className='mt-[40px]'>
-<div className="flex flex-col justify-center items-center">
+    <section>
+<div className="flex flex-col justify-center items-center gap-[34px]">
         <h1 className="mainTitle">We are happy to Help you</h1>
         <Search />
       </div>

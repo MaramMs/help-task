@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.accordion {
+    --bs-accordion-border-color:none !important;
+}
+.accordion-button:not(.collapsed){
+    background-color:transparent !important;
+   
+}
+.accordion-button::after {
+    display: none !important;
+  }

@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className}>
         <NavbarCustom />
-        <main className='container py-24 flex min-h-screen flex-col items-center justify-between' >
+        <main className='container mt-[40px] py-24 flex min-h-screen flex-col  justify-between' >
 
         {children}
         </main>

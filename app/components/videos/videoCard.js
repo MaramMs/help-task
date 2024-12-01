@@ -1,10 +1,12 @@
 'use client'
+import Link from 'next/link';
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { FaArrowRight } from "react-icons/fa6";
 
 const VideoCard = () => {
   return (
+    <Link href='/videodetails' >
     <Card className='border-none '>
     <Card.Img variant="top" src="/images/card1.jpeg" className='img-card'/>
     <Card.Body>
@@ -20,6 +22,7 @@ const VideoCard = () => {
       
     </Card.Body>
   </Card>
+    </Link>
   )
 }
 

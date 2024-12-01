@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { Form, FormControl, InputGroup } from "react-bootstrap";
-import { IoSearch } from "react-icons/io5"; // Importing the search ico
+import { IoSearch } from "react-icons/io5"; 
 import '../../styles/home.css'
 export default function Search() {
     const handleSearch = (event) => {
@@ -10,7 +10,7 @@ export default function Search() {
         // console.log("Search triggered");
       };
   return (
-    <Form className="d-flex justify-center mt-3 search" onSubmit={handleSearch}>
+    <Form className="d-flex justify-center search" onSubmit={handleSearch}>
     <InputGroup>
       <FormControl
         type="search"
