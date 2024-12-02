@@ -4,9 +4,9 @@ import React from 'react'
 import { Card } from 'react-bootstrap'
 import { FaArrowRight } from "react-icons/fa6";
 
-const VideoCard = () => {
+const VideoCard = ({item}) => {  
   return (
-    <Link href='/videodetails' >
+    <Link href={`/videodetails/${item.id}`} >
     <Card className='border-none '>
     <Card.Img variant="top" src="/images/card1.jpeg" className='img-card'/>
     <Card.Body>

@@ -2,7 +2,10 @@ import Search from "@/app/components/sharedComponet/search";
 import AccordionCustom from "@/app/components/videos/accordioncustom";
 import { Col, Row } from "react-bootstrap";
 
-const VideoDetails = () => {
+const VideoDetails = ({params}) => {
+  const { id } = params;
+console.log(id,'id');
+
   return (
     <section>
    
