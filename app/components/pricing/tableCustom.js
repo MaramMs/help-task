@@ -118,7 +118,7 @@ function TableCustom() {
         ))}
       </tbody>
 
-         {/* Add the footer with buttons below each column */}
+         
          <tfoot>
         <tr>
           <td></td> 
