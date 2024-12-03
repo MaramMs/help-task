@@ -16,9 +16,9 @@ function NavbarCustom() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className=" list">
-            <Nav.Link href="#features" className='item active'>Help Center</Nav.Link>
-            <Nav.Link href="#pricing" className='item'>Pricing</Nav.Link>
-            <Nav.Link href="#pricing" className='item'>video guides</Nav.Link>
+            <Nav.Link href="/" className='item active'>Help Center</Nav.Link>
+            <Nav.Link href="/pricing" className='item'>Pricing</Nav.Link>
+            <Nav.Link href="/videos" className='item'>video guides</Nav.Link>
           
           </Nav>
           <Nav className='nav-right flex  gap-[24px]'>
