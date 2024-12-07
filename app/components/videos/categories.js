@@ -41,7 +41,7 @@ const Categories = () => {
 
   
   return (
-    <div className='flex flex-wrap gap-4 justify-center md:justify-start'>
+    <div className='flex gap-[8px] lg:gap-[20px]  md:justify-start overflow-x-auto'>
         {
             categoryList.map((category)=>(
                 <Category key={category.id} name={category.name} id={category.id} activeCategory={activeCategory} setActiveCategory={setActiveCategory}/>

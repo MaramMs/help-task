@@ -1,0 +1,24 @@
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+  }
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-color-type:  #1A1A1A;
+    --bs-table-bg-type: #F9F9FB;
+  
+  }
+  .table td, .table th {
+    word-break: break-all; 
+    white-space: normal; 
+  }
+  .checked-red .form-check-input[type=checkbox]{
+    color: #FAFAFA;
+background-color: #F44336;
+width: 15px;
+height: 15px;
+border: none;
+
+}
+ 

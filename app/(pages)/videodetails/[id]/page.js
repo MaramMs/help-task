@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 const VideoDetails = async ({ params }) => {  
   const { id } = params;
-  // const res = await fetch(`https://api.example.com/videos/${id}`);
+  // const res = await fetch(`https://...../videos/${id}`);
   // const video = await res.json();
   const videos =[
     {

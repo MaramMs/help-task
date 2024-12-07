@@ -1,10 +1,9 @@
-"use";
+"use client";
 import React from "react";
 import ServiceCard from "./serviceCard";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import MainCard from "./mainCard";
 function ServicesCards() {
   const cardItem = [
     {
@@ -36,7 +35,6 @@ function ServicesCards() {
     },
   ];
   return (
-    <Container>
     <Row>
       {cardItem.map((item, index) => (
         <Col key={index} xs={12} lg={4}>
@@ -44,7 +42,6 @@ function ServicesCards() {
         </Col>
       ))}
     </Row>
-  </Container>
   );
 }
 

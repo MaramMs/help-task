@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 function MainCard() {
   return (
-    <Card className='border-none'>
+    <Card className='border-none '>
     <Card.Img variant="top" src="/images/card1.jpeg" className='img-card'/>
     <Card.Body className='py-[32px]'>
       <Card.Title className='d-flex justify-between items-center text-[22px] text-[#242424] '>

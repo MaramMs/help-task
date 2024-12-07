@@ -1,13 +1,9 @@
-import { Poppins } from 'next/font/google'
+import { poppins } from './fonts'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css'
 import Footer from './components/sharedComponet/footer'
 import NavbarCustom from './components/sharedComponet/navbar';
 
-const poppins = Poppins({
-  subsets: ['latin', 'latin-ext'], 
-  weight: ['400', '600', '700'], 
-})
 
 export const metadata = {
   title: 'Create Next App',
@@ -19,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className}>
         <NavbarCustom />
-        <main className='container mt-[40px] py-24 flex min-h-screen flex-col  justify-between' >
+        <main className='lg:mb-[40px] pt-[111px] px-[24px] lg:px-[135px] flex min-h-screen flex-col  justify-between' >
 
         {children}
         </main>

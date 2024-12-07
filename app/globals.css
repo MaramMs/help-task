@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .accordion {
     --bs-accordion-border-color:none !important;
 }
@@ -14,21 +16,3 @@
   }
 
 
-  .table-striped>tbody>tr:nth-of-type(odd)>* {
-    --bs-table-color-type:  #1A1A1A;
-    --bs-table-bg-type: #F9F9FB;
-  
-  }
-  .table>:not(caption)>*>*{
-    word-break: break-all;
-    font-size: 12px;
-
-  }
-  @media (min-width: 768px) {
-    .table>:not(caption)>*>*{
-        padding: 19px 32px;
-    word-break: break-all;
-    font-size: 14px;
-    color:#1A1A1A
-      }
-  }

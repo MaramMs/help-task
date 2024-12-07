@@ -1,15 +1,13 @@
 'use client'
 import React from 'react'
 import { Button } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../../styles/navbar.css'
 function NavbarCustom() {
   return (
-<Navbar collapseOnSelect expand="lg"  className="pt-[44px] fixed top-0 left-0 w-full bg-white  z-50">
-      <Container>
+<Navbar collapseOnSelect expand="lg"  className="px-[24px] lg:px-[135px]  lg:h-[111px] fixed top-0 left-0 w-full bg-white  z-50">
         <Navbar.Brand href="/">
           <img src='/images/logo.png' />
         </Navbar.Brand>
@@ -68,7 +66,6 @@ function NavbarCustom() {
         
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
   )
 }
